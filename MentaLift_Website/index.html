@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title> About us</title>
+</head>
+<body>
+    <section>
+        <header>
+            
+        <a href="#" class="logo"> MentaLift</a>
+        <div class="toggleMenu" onclick="toggleMenu();">
+
+        </div>
+        <ul class="navigation">
+            <img id="logo" src="images/logo.png">
+          
+           
+        </ul>
+         
+        </header>
+        <div class="content">
+
+        <div class="contentBX">
+<h2> Your mental health is a priority</h2> <br> <br>
+<p> MentaLift is an application designed to aid patients find the best suited consultant for their needs and assist them throughout their difficult times just using video-call. <br> <br>
+Our application offers a mobile interface allowing our patients to searchand book online consultancy sessions, in addition to a Web interface for Admins to manage data.</p>
+<br>
+<a href="details.html"> Learn more</a>
+        </div>
+    </div>
+    <ul class="sci">
+        <li> <a href="https://www.linkedin.com/in/elio-mouhasseb-5418a021b/" target="_blank"> <img src="images/LI-In-Bug.png"></a></li>
+        <li> <h4 style="color: white;   font-family: 'Poppins',sans-serif;"> Elio Mouhasseb <br> Freddy Cherfane</h4></li>
+     
+
+       
+
+    </ul>
+    </section>
+
+    <script>
+        function toggleMenu(){
+            const toggleMenu = document.querySelector('.toggleMenu');
+            const navigation = document.querySelector('.navigation');
+            toggleMenu.classList.toggle('active')
+            navigation.classList.toggle('active')
+        }
+    </script>
+
+    
+</body>
+</html>
+
